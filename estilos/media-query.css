@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to bottom, #0880b7, #000000);
+  }
+
+  section#login {
+    width: 90vw;
+    height: 42vh;
+  }
+
+  section#login > div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+
+  section#login > div#form {
+    float: right;
+    width: 70%;
+  }
+
+  div#form > h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  div#form > p {
+    font-size: 0.9em;
+  }
+
+  form > div.campo {
+    display: flex;
+    background-image: linear-gradient(to right, #7acef096, #5693ac96);
+    width: 40%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  form > div.campo > input {
+    width: 90%;
+  }
+
+  form > div > input:hover {
+    border: 3px solid #4979a0;
+  }
+
+  form > div.campo:hover {
+    background-color: #b7ebff;
+    transform: scale(1.1);
+  }
+
+  form > input[type="submit"] {
+    display: block;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4979a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2.5px 2px 4px rgba(0, 0, 0, 0.753);
+  }
+
+  form > input[type=submit]:hover{
+    background-color: #375a77;
+    color:#ffffff;
+  }
+
+  form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    padding-top: 7.5px;
+    padding-left: 12px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #4979a0;
+    border: 1px solid #4979a0;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2.5px 2px 4px rgba(0, 0, 0, 0.767);
+  }
+
+  form > a.botao:hover {
+    background-color: white;
+    color: rgb(160, 7, 7);
+    border: 2px solid rgb(160, 7, 7);
+  }
+
+  form > div > span.material-icons{
+    vertical-align: middle;
+    padding-top: 4px;
+    padding-right: 3px;
+    font-size: 1.7em;
+    color: #375a77;
+ }
+  
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to bottom, #0880b7, #000000);
+  }
+
+  section#login {
+    width: 990px;
+    height: 450px;
+  }
+
+  section#login > div#imagem {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  section#login > div#form {
+    float: left;
+    width: 50%;
+  }
+  div#form > h1 {
+    font-size: 2em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  div#form > p {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  form > div.campo {
+    display: flex;
+    background-image: linear-gradient(to right, #7acef096, #5693ac96);
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  form > div.campo > input {
+    width: 90%;
+  }
+
+  form > div > input:hover {
+    border: 3px solid #4979a0;
+  }
+
+  form > div.campo:hover {
+    background-color: #b7ebff;
+    transform: scale(1.1);
+  }
+
+  
+
+  form > input[type="submit"] {
+    display: block;
+    font-size: 1em;
+    width: 55%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #4979a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2.5px 2px 4px rgba(0, 0, 0, 0.753);
+  }
+
+  form > input[type=submit]:hover{
+    background-color: #375a77;
+    color:#ffffff;
+}
+
+  form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 45%;
+    height: 40px;
+    padding-top: 7.5px;
+    padding-left: 12px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #4979a0;
+    border: 1px solid #4979a0;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2.5px 2px 4px rgba(0, 0, 0, 0.767);
+  }
+
+  form > a.botao:hover {
+    background-color: white;
+    color: rgb(160, 7, 7);
+    border: 2px solid rgb(160, 7, 7);
+  }
+
+  form > div > span.material-icons{
+    vertical-align: middle;
+    padding-top: 4px;
+    padding-right: 3px;
+    font-size: 1.7em;
+    color: #375a77;
+ }
+
+form > a.botao > span{
+    font-size: 1em;
+}
+}
